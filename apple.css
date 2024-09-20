@@ -7,25 +7,28 @@
     
 }
 .nav1{
-    margin-top: 0;
-    position: relative;
+    margin-top: 0%;
+    position: fixed;
     width: 100%;
     height: 45px;
-    background-color: rgba(22, 22, 23, 0.8);
+    background-color: rgba(22, 22, 23, .8);
     top: 0px;
     text-decoration:none;
-    padding: 0px;
+    padding:0%;
+    /* justify-content: center; */
+    /* gap: 1%; */
     
 }
-.navtext{
+.navtext {
     margin-top: 0%;
     word-spacing: 10px;
-    position: relative;
-    padding: px;
-    color: rgb(41, 34, 34);
+    position: fixed;
+    padding:0%;
+    color: rgb(201, 213, 221);
     text-decoration: none;
     text-align: center;
-    z-index: 2;
+    /* z-index: 2; */
+
 }
 .not{
     background-color: rgb(20, 17, 17);
@@ -38,9 +41,20 @@
 
     color: white;
 }
+.not p{
+    margin: auto;
+    padding: 0%;
+    text-align: center;
+}
 body{background-color: black;}
     
 .img1{
     width: 100%;
     height: 600px;
+}
+.navtext a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    padding-top: 10px;
 }
