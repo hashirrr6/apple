@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(22, 22, 23,.8);
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 25px;
+    
+}
+.sub-nav{
+    background-color: #1d1d1f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.sub-nav span {
+    color: blue;
+}
+.hero{background-color: black;
+    text-align: center;
+    color: white;
+    
+    
+}
+.hero img{width: 1300px;
+    height: 600px;
+    display: flex;
+        justify-content: center;
+}
+.hero h1 {
+    padding: 30px;
+    
+}
