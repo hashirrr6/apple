@@ -19,7 +19,7 @@ header nav ul li{
     background-color: #1d1d1f;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 .sub-nav span {
     color: blue;
@@ -30,13 +30,16 @@ header nav ul li{
     align-items: center;
     
     
+    
 }
-.hero img{width: 1000px;
+.hero img{width: 800px;
     height: 400px;
     display: flex;
         justify-content: center;
-        margin-left: 170px;
+        align-items: center;
+        /* margin-left: 170px; */
         /* margin-bottom: 100px; */
+        margin: auto;
 }
 .hero h1 {
     /* padding: 30px; */
@@ -64,14 +67,19 @@ header nav ul li{
  .hero p{
     font-size:x-large;
     margin-bottom: 30px;
+
+    /* align-items:center; */
  }
 
  .second{
-    background-color: #2997ff;
-    margin-top: 0%;
+    /* background-image:url("img/iphone22.jpg"); */
+    height: 50vh; 
     text-align: center;
+    
 }
-.second img{width: 1000px;
-/* text-align: center; */
-height: 400px;}
-
+.blue{
+    background-image: url("img/iphone22.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
