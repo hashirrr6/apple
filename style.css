@@ -315,7 +315,7 @@ font-family: sans-serif;font-weight: 50px ; font-size: 20px;
 }
 
 
-.foot-grid{
+/* .foot-grid{
     display: grid;
     align-items: center;
     justify-content: center;
@@ -328,4 +328,79 @@ font-family: sans-serif;font-weight: 50px ; font-size: 20px;
     gap: 20px;
     background-color: aquamarine;
 }
-.foot-col li{list-style: none;}
+.foot-col li{list-style: none;} */
+.foot-grid{
+    background-color: black;
+    color: aquamarine;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    padding-bottom: 20px;
+    ;
+
+}
+.foot-col{
+    height: 300px;
+    width: 200px;
+    gap: 20px;
+    /* background-color: aquamarine; */
+}
+.foot-col li{
+    list-style: none;
+    gap: 10%;
+}
+
+.content-1 h1{
+    font-size: 55px;
+    opacity: 1;
+}
+
+.btn-buy{
+    padding: 3%;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.img-content h2, h1{
+    text-align: center;
+}
+
+.foot-col ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10%;
+    align-items: flex-start;
+}
+.bis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50%;
+}
+
+.copy ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+    list-style: none;
+    border-left: #000000 solid 2px;
+}
+
+.copy{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 50px;
+}
+.last-line{display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 10px;}
